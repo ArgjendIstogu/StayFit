@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">StayFit</string>
+    <string name="tv_name">Emri</string>
+    <string name="tv_lastName">Mbiemri</string>
+    <string name="tv_email">Emaili</string>
+    <string name="tv_password">Fjalekalimi</string>
+    <string name="tv_gender">Gjinia</string>
+    <string name="tv_age">Mosha</string>
+    <string name="radio_male">Mashkull</string>
+    <string name="radio_female">Femer</string>
+    <string name="btn_register">Regjistrohu</string>
+    <string name="error_message">Ka ndodhur nje gabim</string>
+    <string name="confirmation_message">Te dhenat u ruajten me sukses</string>
+    <string name="iv_icon">Ikona</string>
+    <string name="btn_login">Kycu</string>
+    <string name="user_not_found">Perdoruesi nuk u gjet</string>
+    <string name="wrong_credentials">Kredencialet jane gabim</string>
+    <string name="menu_foods">Ushqimet</string>
+    <string name="menu_exercises">Ushtrimet</string>
+    <string name="menu_profile">Profili</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/foodsFragment">
+
+    <fragment
+        android:id="@+id/foodsFragment"
+        android:name="fiek.unipr.stayfit.foodsFragment"
+        android:label="fragment_foods"
+        tools:layout="@layout/fragment_foods" />
+    <activity
+        android:id="@+id/fitActivity"
+        android:name="fiek.unipr.stayfit.fitActivity"
+        android:label="activiy_fit" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="fiek.unipr.stayfit.profileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
