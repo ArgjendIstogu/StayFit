@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "791907875937",
+    "firebase_url": "https://stayfit-5e16a-default-rtdb.firebaseio.com",
+    "project_id": "stayfit-5e16a",
+    "storage_bucket": "stayfit-5e16a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791907875937:android:665573687a9e2abb59fe20",
+        "android_client_info": {
+          "package_name": "fiek.unipr.stayfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791907875937-9cennssbqhnd7odprndr36lb6k7gupii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7vErQeOpczvqP12xE_WOI2bAZRb_UA3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791907875937-9cennssbqhnd7odprndr36lb6k7gupii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
