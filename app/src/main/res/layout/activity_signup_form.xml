@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:padding="30dp"
     android:background="@color/white"
-    tools:context=".Signup_Form">
+    tools:context=".login.Signup_Form">
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"

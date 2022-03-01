@@ -16,19 +16,19 @@
             android:name=".MainActivity"
             android:exported="true" />
         <activity
-            android:name=".Signup_Form"
+            android:name=".login.Signup_Form"
             android:exported="true" />
         <activity
-            android:name=".ExercisesActivity"
-            android:parentActivityName=".fitActivity" />
+            android:name=".exercises.ExercisesActivity"
+            android:parentActivityName=".workouts.fitActivity" />
         <activity
-            android:name=".fitActivity"
+            android:name=".workouts.fitActivity"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".WorkoutDetails"
-            android:parentActivityName=".fitActivity" />
-        <activity android:name=".Exercises" />
-        <activity android:name=".Login_Form">
+            android:name=".workouts.WorkoutDetails"
+            android:parentActivityName=".workouts.fitActivity" />
+        <activity android:name=".exercises.Exercises" />
+        <activity android:name=".login.Login_Form">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

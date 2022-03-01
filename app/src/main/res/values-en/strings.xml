@@ -1,20 +1,6 @@
 <resources>
     <string name="app_name">StayFit</string>
-    <string name="tv_name">Name</string>
-    <string name="tv_lastName">Last Name</string>
-    <string name="tv_email">Email</string>
-    <string name="tv_password">Password</string>
-    <string name="tv_gender">Gender</string>
-    <string name="tv_age">Age</string>
-    <string name="radio_male">Male</string>
-    <string name="radio_female">Female</string>
-    <string name="btn_register">Register</string>
-    <string name="error_message">An error has occurred</string>
-    <string name="confirmation_message">Successfully saved data</string>
-    <string name="iv_icon">Icon</string>
-    <string name="btn_login">Kycu</string>
-    <string name="user_not_found">Perdoruesi nuk u gjet</string>
-    <string name="menu_foods">Ushqimet</string>
-    <string name="menu_exercises">Ushtrimet</string>
-    <string name="menu_profile">Profili</string>
+    <string name="menu_foods">Foods</string>
+    <string name="menu_exercises">Exercises</string>
+    <string name="menu_profile">Profile</string>
 </resources>

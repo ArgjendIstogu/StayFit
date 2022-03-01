@@ -7,16 +7,17 @@
 
     <fragment
         android:id="@+id/foodsFragment"
-        android:name="fiek.unipr.stayfit.foodsFragment"
+        android:name="fiek.unipr.stayfit.fragments.foodsFragment"
         android:label="fragment_foods"
         tools:layout="@layout/fragment_foods" />
     <activity
         android:id="@+id/fitActivity"
-        android:name="fiek.unipr.stayfit.fitActivity"
-        android:label="activiy_fit" />
+        android:name="fiek.unipr.stayfit.workouts.fitActivity"
+        android:label="activity_fit"
+        tools:layout="@layout/activity_fit"/>
     <fragment
         android:id="@+id/profileFragment"
-        android:name="fiek.unipr.stayfit.profileFragment"
+        android:name="fiek.unipr.stayfit.fragments.profileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
 </navigation>

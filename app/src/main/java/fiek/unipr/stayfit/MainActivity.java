@@ -5,9 +5,15 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.NavigationUI;
 
+
 import android.os.Bundle;
+import android.view.WindowManager;
+
+
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import fiek.unipr.stayfit.fragments.foodsFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,6 +21,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+        getSupportFragmentManager().beginTransaction().replace(R.id.maincontainer,new foodsFragment()).commit();
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
         NavController navController = Navigation.findNavController(this,  R.id.fragmentContainerView);
