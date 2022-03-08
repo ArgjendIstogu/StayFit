@@ -64,7 +64,7 @@ public class foodsFragment extends Fragment
         dataholder=new ArrayList<>();
 
 
-        datamodel ob0=new datamodel(R.drawable.healthy,"The food we eat has the largest impact on our improved fitness performance. ","The key to a healthy life is to eat the right amount of calories for how active you are so you balance the energy you consume with the energy you use.Here are the best fitness foods for women that will get you to exercise to your fullest potential:");
+        datamodel ob0=new datamodel(R.drawable.healthy,"The food we eat has the largest impact on our improved fitness performance. ","The key to a healthy life is to eat the right amount of calories for how active you are so you balance the energy you consume with the energy you use.Here are the best fitness foods that will get you to exercise to your fullest potential:");
         dataholder.add(ob0);
 
 
