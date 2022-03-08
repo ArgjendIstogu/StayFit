@@ -1,4 +1,4 @@
-# stay-fit
+# StayFit
 An android app that will display food nutritional values, advices to maintain a healthy living and much more!
 
 
