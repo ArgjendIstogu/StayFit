@@ -15,9 +15,9 @@
         android:name="fiek.unipr.stayfit.workouts.fitActivity"
         android:label="activity_fit"
         tools:layout="@layout/activity_fit"/>
-    <fragment
-        android:id="@+id/profileFragment"
-        android:name="fiek.unipr.stayfit.fragments.profileFragment"
-        android:label="fragment_profile"
-        tools:layout="@layout/fragment_profile" />
+    <activity
+        android:id="@+id/profileActivity"
+        android:name="fiek.unipr.stayfit.profileActivity"
+        android:label="activity_profile"
+        tools:layout="@layout/activity_profile"/>
 </navigation>
