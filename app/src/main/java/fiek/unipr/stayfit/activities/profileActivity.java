@@ -1,4 +1,4 @@
-package fiek.unipr.stayfit;
+package fiek.unipr.stayfit.activities;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -32,6 +32,7 @@ import com.google.firebase.firestore.auth.User;
 import java.util.HashMap;
 import java.util.Map;
 
+import fiek.unipr.stayfit.R;
 import fiek.unipr.stayfit.login.Login_Form;
 import fiek.unipr.stayfit.login.user;
 

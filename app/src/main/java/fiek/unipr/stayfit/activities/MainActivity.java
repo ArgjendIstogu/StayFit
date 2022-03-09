@@ -1,4 +1,4 @@
-package fiek.unipr.stayfit;
+package fiek.unipr.stayfit.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
@@ -13,6 +13,7 @@ import android.view.WindowManager;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import fiek.unipr.stayfit.R;
 import fiek.unipr.stayfit.fragments.foodsFragment;
 
 public class MainActivity extends AppCompatActivity {

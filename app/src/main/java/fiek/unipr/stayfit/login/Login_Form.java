@@ -18,7 +18,7 @@ import com.google.firebase.auth.EmailAuthCredential;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 
-import fiek.unipr.stayfit.MainActivity;
+import fiek.unipr.stayfit.activities.MainActivity;
 import fiek.unipr.stayfit.R;
 
 public class Login_Form extends AppCompatActivity implements View.OnClickListener {

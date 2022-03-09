@@ -19,7 +19,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import fiek.unipr.stayfit.MainActivity;
+import fiek.unipr.stayfit.activities.MainActivity;
 import fiek.unipr.stayfit.R;
 
 public class Signup_Form extends AppCompatActivity {

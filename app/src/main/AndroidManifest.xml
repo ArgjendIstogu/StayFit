@@ -13,10 +13,10 @@
         android:theme="@style/Theme.StayFit"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".profileActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name=".activities.profileActivity"
+            android:parentActivityName=".activities.MainActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:exported="true" />
         <activity
             android:name=".login.Signup_Form"
@@ -26,7 +26,7 @@
             android:parentActivityName=".workouts.fitActivity" />
         <activity
             android:name=".workouts.fitActivity"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".activities.MainActivity" />
         <activity
             android:name=".workouts.WorkoutDetails"
             android:parentActivityName=".workouts.fitActivity" />

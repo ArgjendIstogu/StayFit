@@ -17,7 +17,7 @@
         tools:layout="@layout/activity_fit"/>
     <activity
         android:id="@+id/profileActivity"
-        android:name="fiek.unipr.stayfit.profileActivity"
+        android:name="fiek.unipr.stayfit.activities.profileActivity"
         android:label="activity_profile"
         tools:layout="@layout/activity_profile"/>
 </navigation>
